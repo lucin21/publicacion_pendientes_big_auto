@@ -1,0 +1,1 @@
+Clasifica el tipo de validacion de las publicaciones pendientes
