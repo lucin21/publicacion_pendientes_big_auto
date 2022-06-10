@@ -22,7 +22,7 @@ class Automation(Escribir_informacion):
         login_element = self.wait.waitForElement(locator="input-40")
         self.wait.sendKeys("developer@lionintel.com", login_element)
         password_element = self.wait.waitForElement(locator="input-44")
-        self.wait.sendKeys("SolutionsLion*", password_element)
+        self.wait.sendKeys("password", password_element)
         acceder_element = self.wait.waitForElement(
             locator='//*[@id="app"]/div/main/div/div/div[2]/div/div/form/div/div/div[4]/button/span',
             locatorType='xpath')
